@@ -1,6 +1,7 @@
 import "./NavBar.css"
+import CartWidget from "./CartWidget"
 
-const NavBar = () => {
+const NavBar = ({titulo}) => {
     return (
         <nav className="navbar navbara">
             <ul>
@@ -14,6 +15,7 @@ const NavBar = () => {
                 </li>
             </ul>
             <h2 className="h2">ACQUAPET</h2>
+            <CartWidget/>
         </nav>
     )
 }

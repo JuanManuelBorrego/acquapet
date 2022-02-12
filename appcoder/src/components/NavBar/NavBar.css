@@ -21,7 +21,7 @@
   .container {
     padding: 18px;
     margin-top: 35px;
-    height: 2000px;
+    height: 20px;
   }
 
   .li{
@@ -40,4 +40,7 @@
   }
 
   
- 
+  .h1 {
+      color: black
+  }
+
